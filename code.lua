@@ -165,7 +165,7 @@ local function hopToNextServer()
     for attempt = 1, maxRetries do
         -- RE-QUEUE THIS SCRIPT BEFORE EVERY TELEPORT ATTEMPT
         pcall(function()
-            queue_on_teleport('loadstring(game:HttpGet("https://pastebin.com/raw/AbDuVeUR"))()')
+            queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/saus1132/asdadadsasd/refs/heads/main/code.lua"))()')
         end)
         
         local servers = getViableServers()
@@ -204,7 +204,7 @@ getgenv().RUN_COUNT = (getgenv().RUN_COUNT or 0) + 1
 
 -- IMMEDIATELY queue for next teleport as soon as script starts
 pcall(function()
-    queue_on_teleport('loadstring(game:HttpGet("https://pastebin.com/raw/e26UkvKu"))()')
+    queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/saus1132/asdadadsasd/refs/heads/main/code.lua"))()')
 end)
 print("✅ Queued script for next teleport")
 
